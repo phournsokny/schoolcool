@@ -6,12 +6,12 @@ const NoStudent = () => (
     <div className="no-student p-3">
         <h2>No Student Found</h2>
         <p>
-            Add Student Attendance
+            Add Student Register
         </p>
         <img
             className="img-fluid bounce-animation "
             src={logo}
-            alt="Logo STTISS"
+            alt="Logo"
             style={{ width: "15rem", padding: "2rem" }}
         />
     </div>

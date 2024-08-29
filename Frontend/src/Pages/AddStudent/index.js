@@ -64,7 +64,7 @@ export default function AddStudent() {
         </div>
         <div className="mb-3">
           <label for="nim" className="form-label">
-            Student Nim
+            Student Age
           </label>
           <input
             type="number"

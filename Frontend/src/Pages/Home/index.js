@@ -52,7 +52,7 @@ export default function Home() {
 
   return (
     <div className="text-center mb-4">
-      <h5 style={{ textAlign: "center", padding: "3rem" }}>Students Attendance Sekolah Tinggi Teknologi Informatika Sony Sugema</h5>
+      <h5 style={{ textAlign: "center", padding: "3rem" }}>Welcome to SchoolCool Management Register</h5>
       <Link to="/add-student">
         <div className="col-4">
           <button className="btn btn-primary" type="submit">
@@ -67,7 +67,7 @@ export default function Home() {
               <tr>
                 <th scope="col"></th>
                 <th scope="col">Name</th>
-                <th scope="col">Nim</th>
+                <th scope="col">Age</th>
                 <th scope="col">Gender</th>
                 <th scope="col">Action</th>
               </tr>

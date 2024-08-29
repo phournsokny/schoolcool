@@ -10,7 +10,7 @@ function Header() {
             <img
               className="img-fluid"
               src={logo}
-              alt="Logo STTISS"
+              alt="Logo"
               style={{ width: "3rem" }}
             />
           </a>
@@ -30,12 +30,12 @@ function Header() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/">
-                  Home
+                  <b>Dashboard</b>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="/add-student">
-                  Create Student
+                  <b>Create Student</b>
                 </a>
               </li>
             </ul>
